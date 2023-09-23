@@ -9,7 +9,7 @@ DoVerse is a robust web application that simplifies task management. It offers a
   - [Links](#links)
   - [Contributing](#contributing)
   - [License](#license)
-- [Acknowledgments](#cknowledgments)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
