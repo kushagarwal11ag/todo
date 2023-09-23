@@ -1,0 +1,53 @@
+.nav-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-action .nav-home,
+.nav-action .nav-logout {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.account {
+  padding: 2rem;
+  border: 2px solid #003049;
+}
+.account div input,
+.account div input:focus {
+  background-color: #f0efe7;
+  border: 2px solid #003049;
+}
+.account button {
+  border: 2px solid #003049;
+}
+.account button:hover,
+.account button:focus {
+  background-color: #003049;
+  color: #f0efe7;
+}
+
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+.header img {
+  width: 5rem;
+  height: 5rem;
+  border: 3px solid #003049;
+  border-radius: 50%;
+}
+@media (min-width: 350px) {
+  .header {
+    flex-direction: row;
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}/*# sourceMappingURL=Account.css.map */

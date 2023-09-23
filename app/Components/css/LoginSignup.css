@@ -1,0 +1,61 @@
+.login,
+.signup,
+.invalidCredentials {
+  color: #003049;
+}
+.login .link,
+.signup .link,
+.invalidCredentials .link {
+  margin-top: 1rem;
+}
+.login .link .href-link,
+.signup .link .href-link,
+.invalidCredentials .link .href-link {
+  color: #c1121f;
+  text-decoration: none;
+}
+.login .link .href-link:hover,
+.login .link .href-link:focus,
+.signup .link .href-link:hover,
+.signup .link .href-link:focus,
+.invalidCredentials .link .href-link:hover,
+.invalidCredentials .link .href-link:focus {
+  color: #780000;
+}
+.login button,
+.signup button,
+.invalidCredentials button {
+  border: 2px solid #003049;
+}
+.login button:hover,
+.login button:focus,
+.signup button:hover,
+.signup button:focus,
+.invalidCredentials button:hover,
+.invalidCredentials button:focus {
+  background-color: #003049;
+  color: #fdf0d5;
+}
+
+.login div input,
+.login div input:focus,
+.signup div input,
+.signup div input:focus {
+  border: 2px solid #003049;
+}
+
+.invalidCredentials div input,
+.invalidCredentials div input:focus {
+  border: 2px solid #c1121f;
+}
+
+.passwordMismatch div input[type=password],
+.passwordMismatch div input[type=password]:focus {
+  border: 2px solid #c1121f;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}/*# sourceMappingURL=LoginSignup.css.map */
